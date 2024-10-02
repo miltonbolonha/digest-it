@@ -54,20 +54,21 @@ npm test
 
 ## Digest It! Main Pipepline
 
-+-----------------------------------+
-| 1️⃣ Workflow Cleanup |
-| 2️⃣ Processing Inputs |
-| 3️⃣ AI Content Generator |
-| 4️⃣ Export Static Files |
-| 5️⃣ Website Essential Files |
-| 6️⃣ Automation & Scheduling |
-| 7️⃣ Sync |
-| 8️⃣ Cache Management |
-| 🛠️ Utilities |
-+-----------------------------------+
-| 🔄 Atualizar Painel |
-| 💾 Salvar Mudanças |
-+-----------------------------------+
+| Order                              |
+| ---------------------------------- |
+| 1️⃣ Workflow Cleanup                |
+| 2️⃣ Processing Inputs               |
+| 3️⃣ AI Content Generator            |
+| 4️⃣ Export Static Files             |
+| 5️⃣ Website Essential Files         |
+| 6️⃣ Automation & Scheduling         |
+| 7️⃣ Sync                            |
+| 8️⃣ Cache Management                |
+| 🛠️ Utilities                       |
+| ---------------------------------- |
+| 🔄 Atualizar Painel                |
+| 💾 Salvar Mudanças                 |
+| ---------------------------------- |
 
 ### 1️⃣ Workflow Cleanup
 
