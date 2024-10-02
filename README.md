@@ -69,7 +69,7 @@ npm test
 | 🔄 Atualizar Painel        |
 | 💾 Salvar Mudanças         |
 
-| DIGEST IT ADMIN DASHBOARD |
+|                           | DIGEST IT ADMIN DASHBOARD  |                              |
 | ------------------------- | -------------------------- | ---------------------------- |
 | 1️⃣ Workflow Cleanup       | 2️⃣ Processing Inputs       | 3️⃣ AI Content Generator      |
 | [🧹 Clean Up]             | [✔️ Validate Inputs]       | [🤖 Generate Content]        |
