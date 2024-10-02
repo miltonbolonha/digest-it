@@ -71,6 +71,7 @@ npm test
 
 |                           | DIGEST IT ADMIN DASHBOARD  |                              |
 | ------------------------- | -------------------------- | ---------------------------- |
+|                           |                            |                              |
 | 1️⃣ Workflow Cleanup       | 2️⃣ Processing Inputs       | 3️⃣ AI Content Generator      |
 | [🧹 Clean Up]             | [✔️ Validate Inputs]       | [🤖 Generate Content]        |
 | [🗑️ Delete Schedules]     | [⚠️ View Input Logs]       | [⚙️ Configure AI Settings]   |
@@ -80,6 +81,7 @@ npm test
 | [📡 Export Feeds]         | [🎨 Generate SCSS]         | [🤖 Schedule Auto GPT Posts] |
 | [⚡ Generate AMP Stories] | [📄 Update Ads.txt]        | [🔄 Configure Cron Jobs]     |
 |                           | [🤖 Update Robots.txt]     |                              |
+|                           |                            |                              |
 | 7️⃣ Sync                   | 8️⃣ Cache Management        | 🛠️ Utilities                 |
 | [🔄 Sync Public Folder]   | [📂 Create Data Cache]     | [📂 File Reader]             |
 | [🔄 Sync CMS Files]       | [♻️ Update Cache]          | [📝 File Writer]             |
