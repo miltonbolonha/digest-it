@@ -77,9 +77,6 @@ npm test
 - 🗑️ Delete Old Schedules
 - 🗑️ Delete GPT Workflows
 
-Status: ✅ Limpeza realizada recentemente  
-Última Ação: 3 dias atrás
-
 **Main Pipeline:**
 
 | Order | Process Name     | Description       |
@@ -96,9 +93,6 @@ Status: ✅ Limpeza realizada recentemente
 - ✅ Validate Inputs
 - 📝 Parse User Inputs
 - ⚠️ Log Input Errors
-
-Status: ✅ Todos os inputs foram validados corretamente  
-Última Ação: 30 minutos atrás
 
 **Main Pipeline:**
 
