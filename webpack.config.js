@@ -1,5 +1,4 @@
 const path = require("path");
-const NodePolyfillPlugin = require("node-polyfill-webpack-plugin");
 
 module.exports = [
   {
@@ -24,21 +23,5 @@ module.exports = [
       outputModule: true, // Habilitar suporte a ES Modules
     },
     mode: "production",
-  },
-  {
-    // Comando Digest
-    entry: "./src/cli.js", // Novo ponto de entrada para o comando
-    output: {
-      filename: "cli.js", // O arquivo será gerado na pasta dist
-      path: path.resolve(__dirname, "dist"),
-      libraryTarget: "commonjs2", // Para CommonJS
-    },
-    mode: "production",
-    plugins: [new NodePolyfillPlugin()], // Adiciona o polyfill apenas aqui
-    resolve: {
-      fallback: {
-        path: require.resolve("path-browserify"),
-      },
-    },
   },
 ];

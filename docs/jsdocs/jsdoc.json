@@ -1,0 +1,9 @@
+{
+  "opts": {
+    "template": "node_modules/tidy-jsdoc",
+    "destination": "./docs/jsdocs"
+  },
+  "metadata": {
+    "title": "Digest It! - This baby is yours!"
+  }
+}

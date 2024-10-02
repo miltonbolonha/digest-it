@@ -29,9 +29,9 @@ console.log(add(1, 2)); // 3
 npm test
 ```
 
-### Digest It - Project Summary
+## Digest It - Project Summary
 
-#### Main Services
+## Main Services
 
 - GitHub
 - GitHub Actions
@@ -40,7 +40,7 @@ npm test
 - Cloudinary
 - ChatGPT
 
-#### Digest It! Main Pipepline
+## Digest It! Main Pipepline
 
 | Order | Process Name            | Description                         |
 | ----- | ----------------------- | ----------------------------------- |
@@ -52,7 +52,61 @@ npm test
 | 6     | Automation & Scheduling | Automate tasks, schedule processes  |
 | 7     | Sync                    | Sync files across different systems |
 
-#### GitHub Actions Interface
+## Digest It! Main Pipepline
+
++-----------------------------------+
+| 1️⃣ Workflow Cleanup |
+| 2️⃣ Processing Inputs |
+| 3️⃣ AI Content Generator |
+| 4️⃣ Export Static Files |
+| 5️⃣ Website Essential Files |
+| 6️⃣ Automation & Scheduling |
+| 7️⃣ Sync |
+| 8️⃣ Cache Management |
+| 🛠️ Utilities |
++-----------------------------------+
+| 🔄 Atualizar Painel |
+| 💾 Salvar Mudanças |
++-----------------------------------+
+
+### 1️⃣ Workflow Cleanup
+
+> Mantenha o ambiente limpo e eficiente.  
+> Objetivo: Remover agendamentos antigos e limpar workflows desnecessários.
+
+- 🗑️ Delete Old Schedules
+- 🗑️ Delete GPT Workflows
+
+Status: ✅ Limpeza realizada recentemente  
+Última Ação: 3 dias atrás
+
+**Main Pipeline:**
+
+| Order | Process Name | Description |
+| 1 | Workflow Cleanup | Setup environment |
+
+---
+
+### 2️⃣ Processing Inputs
+
+> Validação de dados e processamento de inputs antes de seguir para as próximas etapas.  
+> Objetivo: Manipular e garantir que os dados de entrada estejam corretos.
+
+- ✅ Validate Inputs
+- 📝 Parse User Inputs
+- ⚠️ Log Input Errors
+
+Status: ✅ Todos os inputs foram validados corretamente  
+Última Ação: 30 minutos atrás
+
+**Main Pipeline:**
+
+| Order | Process Name | Description |
+| 2 | Processing Inputs | Handle and validate input data |
+
+---
+
+## GitHub Actions Interface
 
 | Functionality   | Description                                |
 | --------------- | ------------------------------------------ |

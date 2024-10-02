@@ -1,3 +1,6 @@
+const executeStep = require("./utils/execute-step");
+const debugMe = require("./utils/debug-me");
+
 /**
  * DigestIt.js
  * @class
@@ -25,8 +28,44 @@ class DigestIt {
    * instance.initialize("Welcome!");
    * // Logs: Initialization complete: Welcome!
    */
-  initialize(userMessage) {
-    console.log(`Initialization complete: ${userMessage}`);
+  initialize(
+    initialPipeConfig = { deleteOldCrons: true, deleteGPTWorkflows: false },
+    workflowDir = ".github/workflow",
+    config = {}
+  ) {
+    if (!config) return null;
+    debugMe(true, "config", config, {
+      logColor: "green",
+      messageColor: "yellow",
+    });
+    debugMe(true, "workflowDir", workflowDir, {
+      logColor: "green",
+      messageColor: "yellow",
+    });
+
+    debugMe(true, "initialPipeConfig", initialPipeConfig, {
+      logColor: "green",
+      messageColor: "yellow",
+    });
+
+    //   config?.deleteOldCrons
+    //   ? await executeStep("🗑️ - Delete: Old Crons", cleanOldBuildYMLFiles, [
+    //       workflowDir,
+    //     ])
+    //   : null;
+
+    // // Post Scheduling
+    // config?.deleteGPTWorkflows
+    //   ? await executeStep(
+    //       "📝 - Write: Delete GPT Schedule Files",
+    //       deleteGPTWorkflows,
+    //       [workflowDir]
+    //     )
+    //   : null;
+    // Update Triggers:
+    // await executeStep("🔄 - Generate: Update System", generateUpdateYML);
+    // await executeStep("🔄 - Generate: Monthly Update", generateMonthlyUpdateYML);
+    // await executeStep("🔄 - Generate: User Update", generateTriggerUpdateYML);
   }
 
   // async syncContent() {
@@ -39,3 +78,5 @@ module.exports = DigestIt;
 if (typeof window !== "undefined") {
   window.DigestIt = DigestIt;
 }
+
+new DigestIt().initialize({ deleteOldCrons: true, deleteGPTWorkflows: true });
