@@ -69,7 +69,9 @@ npm test
 | 🔄 Atualizar Painel        |
 | 💾 Salvar Mudanças         |
 
-|                            | DIGEST IT ADMIN DASHBOARD      |                                |
+### Old
+
+|                            | DIGEST IT PIPELINE             |                                |
 | -------------------------- | ------------------------------ | ------------------------------ |
 |                            |                                |                                |
 | 1️⃣ **Workflow Cleanup**    | 2️⃣ **Processing Inputs**       | 3️⃣ **AI Content Generator**    |
@@ -86,7 +88,25 @@ npm test
 | - _Sync Public Folder_     | - _Create Data Cache_          | - _File Reader_                |
 | - _Sync CMS Files_         | - _Update Cache_               | - _File Writer_                |
 |                            |                                | - _Convert MD to JSON_         |
-| 🔄 **Atualizar Painel**    | 💾 **Salvar Mudanças**         |
+
+### New
+
+|                              | DIGEST IT PIPELINE                        |                                |
+| ---------------------------- | ----------------------------------------- | ------------------------------ |
+|                              |                                           |                                |
+| 1️⃣ **Workflow Cleanup**      | 2️⃣ **Input Processing**                   | 3️⃣ **AI Content Generation**   |
+| - _Remove Old Schedules_     | - _Validate Inputs_                       | - _Generate Content_           |
+| - _Clean Up Old Build Files_ | - _View Validation Logs_                  | - _Configure AI Settings_      |
+|                              |                                           |                                |
+| 4️⃣ **Export Static Files**   | 5️⃣ **Essential Website Files**            | 6️⃣ **Automation & Scheduling** |
+| - _Generate Sitemaps_        | - _Admin Configurations_                  | - _Schedule Posts_             |
+| - _Export Feeds_             | - _User SCSS Styles_                      | - _Schedule Auto Posts_        |
+| - _Create AMP Stories_       | - _Update Control Files_ (Ads and Robots) | - _Configure Cron Jobs_        |
+|                              |                                           |                                |
+| 7️⃣ **Sync**                  | 8️⃣ **Cache Management**                   | 🛠️ **Utilities**               |
+| - _Sync Public Folder_       | - _Optimize and Manage Cache_             | - _File Reader_                |
+| - _Sync CMS Files_           | - _Update Cache_                          | - _File Writer_                |
+|                              |                                           | - _Convert MD to JSON_         |
 
 ### 1️⃣ Workflow Cleanup
 
