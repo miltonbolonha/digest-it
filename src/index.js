@@ -7,20 +7,22 @@
 class DigestIt {
   /**
    * Creates an instance of DigestIt.
-   * @param {number} num1 - First number.
-   * @param {number} num2 - Second number.
+   * @param {string} message - The initialization message.
    */
-  constructor(num1, num2) {
-    this.num1 = num1;
-    this.num2 = num2;
+  constructor(message) {
+    this.message = message;
   }
-
   /**
    * Adds two numbers.
    * @returns {number} - The sum of num1 and num2.
    */
-  add() {
-    return this.num1 + this.num2;
+
+  /**
+   * Initialization method to log a message.
+   * @param {string} userMessage - The user provided message.
+   */
+  initialize(userMessage) {
+    console.log(`Initialization complete: ${userMessage}`);
   }
 
   // async syncContent() {
