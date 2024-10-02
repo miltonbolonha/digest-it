@@ -1,0 +1,65 @@
+{
+  "name": "digestit",
+  "version": "0.1.0",
+  "description": "DigestIt.js is an automation tool that simplifies the creation, export, and synchronization of content generation, static web files, scheduled posts, AI-generated content, DALL·E integration, Decap CMS administration, and Cloudinary uploads.",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "bin": {
+    "digest": "dist/digest.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "digest": "node ./src/digest.js",
+    "build": "webpack  --stats-error-details"
+  },
+  "browser": {
+    "dist/bundle.cjs.js": "dist/bundle.esm.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miltonbolonha/digest-it.git"
+  },
+  "keywords": [
+    "Digest",
+    "It",
+    "automation",
+    "content",
+    "generation",
+    "static",
+    "web",
+    "files",
+    "scheduled",
+    "posts",
+    "AI-generated",
+    "content",
+    "chatGPT",
+    "OpenAI",
+    "DALL·E",
+    "Decap",
+    "CMS",
+    "Cloudinary",
+    "Netlify",
+    "Netlify",
+    "CMS",
+    "npm",
+    "package"
+  ],
+  "author": "Milton Bolonha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miltonbolonha/digest-it/issues"
+  },
+  "homepage": "https://github.com/miltonbolonha/digest-it#readme",
+  "devDependencies": {
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "app-root-path": "^3.1.0",
+    "assert": "^2.1.0",
+    "node-polyfill-webpack-plugin": "^4.0.0",
+    "path": "^0.12.7",
+    "path-browserify": "^1.0.1",
+    "yargs": "^17.7.2"
+  }
+}

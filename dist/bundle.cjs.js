@@ -1,0 +1,1 @@
+(()=>{var t={44:t=>{class r{constructor(t,r){this.num1=t,this.num2=r}add(){return this.num1+this.num2}}t.exports=r,"undefined"!=typeof window&&(window.DigestIt=r)}},r={},e=function e(n){var o=r[n];if(void 0!==o)return o.exports;var s=r[n]={exports:{}};return t[n](s,s.exports,e),s.exports}(44);module.exports=e})();
