@@ -97,3 +97,13 @@ npm test
 |             [ Actions Logs ]  [ Trigger Updates ]             |
 +---------------------------------------------------------------+
 ```
+
+### Detalhes dos Comentários JSDoc
+
+- **@class**: Indica que a função/entidade documentada é uma classe.
+- **@classdesc**: Descreve o propósito e uso geral da classe.
+- **@constructor**: Indica que esse método é o construtor da classe.
+- **@property**: Documenta uma propriedade da classe.
+- **@method**: Indica que a função documentada é um método da classe.
+- **@param**: Documenta um parâmetro de uma função ou método.
+- **@example**: Fornece um exemplo de uso para ajudar desenvolvedores a entender como utilizar o método.

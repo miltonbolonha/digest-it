@@ -5,7 +5,7 @@ const assert = require("assert");
 test("CLI initialize command output", (t, done) => {
   // Adicionamos o done explicitamente ao parâmetro do test
   exec(
-    'node ./src/digest.js initialize --message "Welcome from CLI!"',
+    'node ./src/cli.js initialize --message "Welcome from CLI!"',
     (error, stdout, stderr) => {
       if (error) {
         console.error("Exec error:", error); // Log do erro

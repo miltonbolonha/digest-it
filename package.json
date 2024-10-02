@@ -5,11 +5,12 @@
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
   "bin": {
-    "digest": "dist/digest.js"
+    "digest": "dist/cli.js"
   },
   "scripts": {
     "test": "node --test",
-    "digest": "node ./src/digest.js",
+    "docs": "jsdoc -r ./src -d ./docs/jsdocs -R ./docs/jsdocs/README.md",
+    "digest": "node ./src/cli.js",
     "build": "webpack  --stats-error-details"
   },
   "browser": {
@@ -51,6 +52,7 @@
   },
   "homepage": "https://github.com/miltonbolonha/digest-it#readme",
   "devDependencies": {
+    "jsdocs": "^1.0.0",
     "webpack": "^5.95.0",
     "webpack-cli": "^5.1.4"
   },

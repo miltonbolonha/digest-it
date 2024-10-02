@@ -27,9 +27,9 @@ module.exports = [
   },
   {
     // Comando Digest
-    entry: "./src/digest.js", // Novo ponto de entrada para o comando
+    entry: "./src/cli.js", // Novo ponto de entrada para o comando
     output: {
-      filename: "digest.js", // O arquivo será gerado na pasta dist
+      filename: "cli.js", // O arquivo será gerado na pasta dist
       path: path.resolve(__dirname, "dist"),
       libraryTarget: "commonjs2", // Para CommonJS
     },
