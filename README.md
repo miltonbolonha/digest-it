@@ -73,20 +73,20 @@ npm test
 | -------------------------- | ------------------------------ | ------------------------------ |
 |                            |                                |                                |
 | 1️⃣ **Workflow Cleanup**    | 2️⃣ **Processing Inputs**       | 3️⃣ **AI Content Generator**    |
-| [🧹 Clean Up]              | [✔️ Validate Inputs]           | [🤖 Generate Content]          |
-| [🗑️ Delete Schedules]      | [⚠️ View Input Logs]           | [⚙️ Configure AI Settings]     |
+| - _Clean Up_               | - _Validate Inputs_            | - _Generate Content_           |
+| - _Delete Schedules_       | - _View Input Logs_            | - _Configure AI Settings_      |
 |                            |                                |                                |
 | 4️⃣ **Export Static Files** | 5️⃣ **Website Essential Files** | 6️⃣ **Automation & Scheduling** |
-| [📄 Generate Sitemaps]     | [🔧 Setup DecapCMS]            | [📅 Schedule Posts]            |
-| [📡 Export Feeds]          | [🎨 Generate SCSS]             | [🤖 Schedule Auto GPT Posts]   |
-| [⚡ Generate AMP Stories]  | [📄 Update Ads.txt]            | [🔄 Configure Cron Jobs]       |
-|                            | [🤖 Update Robots.txt]         |                                |
+| - _Generate Sitemaps_      | - _Setup DecapCMS_             | - _Schedule Posts_             |
+| - _Export Feeds_           | - _Generate SCSS_              | - _Schedule Auto GPT Posts_    |
+| - _Generate AMP Stories_   | - _Update Ads.txt_             | - _Configure Cron Jobs_        |
+|                            | - _Update Robots.txt_          |                                |
 |                            |                                |                                |
 | 7️⃣ **Sync**                | 8️⃣ **Cache Management**        | 🛠️ **Utilities**               |
-| [🔄 Sync Public Folder]    | [📂 Create Data Cache]         | [📂 File Reader]               |
-| [🔄 Sync CMS Files]        | [♻️ Update Cache]              | [📝 File Writer]               |
-|                            |                                | [🔄 Convert MD to JSON]        |
-| 🔄 Atualizar Painel        | 💾 Salvar Mudanças             |
+| - _Sync Public Folder_     | - _Create Data Cache_          | - _File Reader_                |
+| - _Sync CMS Files_         | - _Update Cache_               | - _File Writer_                |
+|                            |                                | - _Convert MD to JSON_         |
+| 🔄 **Atualizar Painel**    | 💾 **Salvar Mudanças**         |
 
 ### 1️⃣ Workflow Cleanup
 
