@@ -82,8 +82,9 @@ Status: ✅ Limpeza realizada recentemente
 
 **Main Pipeline:**
 
-| Order | Process Name | Description |
-| 1 | Workflow Cleanup | Setup environment |
+| Order | Process Name     | Description       |
+| ----- | ---------------- | ----------------- |
+| 1     | Workflow Cleanup | Setup environment |
 
 ---
 
@@ -101,12 +102,13 @@ Status: ✅ Todos os inputs foram validados corretamente
 
 **Main Pipeline:**
 
-| Order | Process Name | Description |
-| 2 | Processing Inputs | Handle and validate input data |
+| Order | Process Name      | Description                    |
+| ----- | ----------------- | ------------------------------ |
+| 2     | Processing Inputs | Handle and validate input data |
 
 ---
 
-## GitHub Actions Interface
+### GitHub Actions Interface
 
 | Functionality   | Description                                |
 | --------------- | ------------------------------------------ |
