@@ -69,24 +69,24 @@ npm test
 | 🔄 Atualizar Painel        |
 | 💾 Salvar Mudanças         |
 
-|                           | DIGEST IT ADMIN DASHBOARD  |                              |
-| ------------------------- | -------------------------- | ---------------------------- |
-|                           |                            |                              |
-| 1️⃣ Workflow Cleanup       | 2️⃣ Processing Inputs       | 3️⃣ AI Content Generator      |
-| [🧹 Clean Up]             | [✔️ Validate Inputs]       | [🤖 Generate Content]        |
-| [🗑️ Delete Schedules]     | [⚠️ View Input Logs]       | [⚙️ Configure AI Settings]   |
-|                           |                            |                              |
-| 4️⃣ Export Static Files    | 5️⃣ Website Essential Files | 6️⃣ Automation & Scheduling   |
-| [📄 Generate Sitemaps]    | [🔧 Setup DecapCMS]        | [📅 Schedule Posts]          |
-| [📡 Export Feeds]         | [🎨 Generate SCSS]         | [🤖 Schedule Auto GPT Posts] |
-| [⚡ Generate AMP Stories] | [📄 Update Ads.txt]        | [🔄 Configure Cron Jobs]     |
-|                           | [🤖 Update Robots.txt]     |                              |
-|                           |                            |                              |
-| 7️⃣ Sync                   | 8️⃣ Cache Management        | 🛠️ Utilities                 |
-| [🔄 Sync Public Folder]   | [📂 Create Data Cache]     | [📂 File Reader]             |
-| [🔄 Sync CMS Files]       | [♻️ Update Cache]          | [📝 File Writer]             |
-|                           |                            | [🔄 Convert MD to JSON]      |
-| 🔄 Atualizar Painel       | 💾 Salvar Mudanças         |
+|                            | DIGEST IT ADMIN DASHBOARD      |                                |
+| -------------------------- | ------------------------------ | ------------------------------ |
+|                            |                                |                                |
+| 1️⃣ **Workflow Cleanup**    | 2️⃣ **Processing Inputs**       | 3️⃣ **AI Content Generator**    |
+| [🧹 Clean Up]              | [✔️ Validate Inputs]           | [🤖 Generate Content]          |
+| [🗑️ Delete Schedules]      | [⚠️ View Input Logs]           | [⚙️ Configure AI Settings]     |
+|                            |                                |                                |
+| 4️⃣ **Export Static Files** | 5️⃣ **Website Essential Files** | 6️⃣ **Automation & Scheduling** |
+| [📄 Generate Sitemaps]     | [🔧 Setup DecapCMS]            | [📅 Schedule Posts]            |
+| [📡 Export Feeds]          | [🎨 Generate SCSS]             | [🤖 Schedule Auto GPT Posts]   |
+| [⚡ Generate AMP Stories]  | [📄 Update Ads.txt]            | [🔄 Configure Cron Jobs]       |
+|                            | [🤖 Update Robots.txt]         |                                |
+|                            |                                |                                |
+| 7️⃣ **Sync**                | 8️⃣ **Cache Management**        | 🛠️ **Utilities**               |
+| [🔄 Sync Public Folder]    | [📂 Create Data Cache]         | [📂 File Reader]               |
+| [🔄 Sync CMS Files]        | [♻️ Update Cache]              | [📝 File Writer]               |
+|                            |                                | [🔄 Convert MD to JSON]        |
+| 🔄 Atualizar Painel        | 💾 Salvar Mudanças             |
 
 ### 1️⃣ Workflow Cleanup
 
